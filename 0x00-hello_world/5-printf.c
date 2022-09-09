@@ -2,7 +2,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: Main will print out "with proper grammer, but the outcome is a piece of art"
+ * Description: Print "with proper grammer, but the outcome is a piece of art"
  * Return: Always return 0
  */
 int main(void)
