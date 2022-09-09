@@ -11,7 +11,7 @@ int main(void)
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i <= alp[i]; i++)
+	for (i = 0; i < alp[i]; i++)
 	{
 		if ((alp[i] != 'e') && (alp[i] != 'q'))
 		{
