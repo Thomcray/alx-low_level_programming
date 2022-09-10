@@ -12,12 +12,12 @@ int main(void)
 
 	for (i = 0; i <= 98; i++)
 	{
-		for (j = 0; j <= 99; j++)
+		for (j = 1; j <= 99; j++)
 		{
 			putchar(i + '0');
 			putchar(j + '0');
 
-			if (i == 99 && j == 99)
+			if (i == 98 && j == 99)
 			{
 				break;
 			}
