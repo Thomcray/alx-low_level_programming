@@ -15,7 +15,7 @@ int main(void)
 		{
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
-			putchar(' ');
+			putchar(10);
 			if (i == 98 && j == 99)
 				continue;
 			putchar((j / 10) + '0');
@@ -24,6 +24,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	putchar('\n');
+	putchar(11);
 	return (0);
 }
