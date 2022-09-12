@@ -18,7 +18,7 @@ int main(void)
 			putchar(' ');
 			if (i == 98 && j == 99)
 			{
-				break;
+				continue;
 			}
 			putchar((j / 10) + '0');
 			putchar((j % 10) + '0');
