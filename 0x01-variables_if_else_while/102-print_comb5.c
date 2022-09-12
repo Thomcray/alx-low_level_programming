@@ -11,13 +11,15 @@ int main(void)
 
 	for (i = 0; i <= 98; i++)
 	{
-		for (j = i + 1; j <= 99; j++)
+		for (j = 0; j <= 99; j++)
 		{
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
-			putchar(10);
+			putchar(' ');
 			if (i == 98 && j == 99)
-				continue;
+			{
+				break;
+			}
 			putchar((j / 10) + '0');
 			putchar((j % 10) + '0');
 			putchar(',');
