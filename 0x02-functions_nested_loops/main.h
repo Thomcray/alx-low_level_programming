@@ -13,6 +13,7 @@
  * jack_bauer - Prints every minute of the day of Jack Bauer
  * times_table - Prints 9 times table, starting with 0
  * add - Adds two integers and returns the result
+ * print_to_98 - Prints all natural numbers from n to 98, followed by a new line
  */
 
 void _putchar(char c);
@@ -26,3 +27,4 @@ int print_last_digit(int);
 void jack_bauer(void);
 void times_table(void);
 int add(int, int);
+void print_to_98(int n);
