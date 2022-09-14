@@ -7,4 +7,5 @@
   5. Prints the sign of a number
   6. Compute the absolute value of an integer
   7. Print the last digit of a number
-  8. Function thta prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59 
+  8. Function thta prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
+  9. Function that prints 9 times table, starting with 0 
