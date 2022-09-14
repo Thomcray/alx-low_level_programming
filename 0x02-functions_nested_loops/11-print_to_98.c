@@ -14,12 +14,12 @@ void print_to_98(int n)
 	{
 		if ((i < 98 && i > 0 && i > 81) || (i < 0 && i < n) || (i > n))
 		{
-			_putchar(',');
-			_putchar(' ');
+			putchar(',');
+			putchar(' ');
 		}
 		printf("%d", i);
 	}
-	_putchar('\n');
+	putchar('\n');
 
 	if (n > 98)
 	{
@@ -27,11 +27,11 @@ void print_to_98(int n)
 		{
 			if ((j > 98 && j < n) || (j < n))
 			{
-				_putchar(',');
-				_putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 			printf("%d", j);
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
