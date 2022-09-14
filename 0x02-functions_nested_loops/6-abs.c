@@ -4,10 +4,10 @@
  * _abs - Computes the absolute value of an integer
  * @num: number to compute
  *
- * Return: Always 0
+ * Return: Absolute value of num
  */
 
 int _abs(int num)
 {
-	return (abs(num));
+	return (num * ((num > 0) - (num < 0)));
 }
