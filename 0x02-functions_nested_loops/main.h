@@ -4,7 +4,4 @@
  * @c: Characters to print
  */
 
-void putchar_(char c)
-{
-	_putchar(c);
-}
+void _putchar(char c);
