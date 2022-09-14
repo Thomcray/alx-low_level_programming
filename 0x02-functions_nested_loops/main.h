@@ -9,6 +9,8 @@
  * _isalpha - Checks for alphabetic character
  * print_sign - Prints the sign of a number
  * _abs - Computes the absolute value of an integer
+ * print_last_digit - Prints the last digit of a number
+ * jack_bauer - Prints every minute of the day of Jack Bauer
  */
 
 void _putchar(char c);
@@ -19,3 +21,4 @@ int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
+void jack_bauer(void);
