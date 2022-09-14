@@ -5,4 +5,5 @@
   3. Check for lowercase character
   4. Check for alphabetic character
   5. Prints the sign of a number
-  6. Compute the absolute value of an integer 
+  6. Compute the absolute value of an integer
+  7. Print the last digit of a number 
