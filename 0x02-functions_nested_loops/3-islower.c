@@ -13,7 +13,7 @@ int main(void)
 	res = _islower("c");
 	if (islower(res))
 	{
-		_putchar(res);
+		_putchar(res + '0');
 		return (1);
 	}
 	return (0);
