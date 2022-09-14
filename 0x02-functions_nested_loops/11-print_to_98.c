@@ -31,6 +31,6 @@ void print_to_98(int n)
 			}
 			printf("%d", j);
 		}
-		putchar('\n');
 	}
+	putchar('\n');
 }
