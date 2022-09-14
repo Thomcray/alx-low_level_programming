@@ -3,4 +3,5 @@
   1. Print alphabets in lowercase
   2. Print 10 times the alphabet in lowercase followed by newline
   3. Check for lowercase character
-  4. Check for alphabetic character 
+  4. Check for alphabetic character
+  5. Prints the sign of a number 
