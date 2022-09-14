@@ -6,14 +6,9 @@
  */
 int main(void)
 {
-	int i;
+	char c_str[] "_putchar";
 
-	char putchar_[] = "_putchar";
-
-	for (i = 0; i <= putchar[i]; i++)
-	{
-		_putchar(putchar[i]);
-	}
+	print_putchar(c_str);
 	_putchar('\n');
 
 	return (0);
