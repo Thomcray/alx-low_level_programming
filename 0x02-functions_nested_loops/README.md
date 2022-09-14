@@ -4,4 +4,5 @@
   2. Print 10 times the alphabet in lowercase followed by newline
   3. Check for lowercase character
   4. Check for alphabetic character
-  5. Prints the sign of a number 
+  5. Prints the sign of a number
+  6. Compute the absolute value of an integer 
