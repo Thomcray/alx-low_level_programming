@@ -3,7 +3,7 @@
  * @c: Characters to be printed
  */
 
-char _putchar(char c)
+void _putchar(char c)
 {
 	_putchar(c);
 }
