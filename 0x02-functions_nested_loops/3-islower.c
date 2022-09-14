@@ -11,10 +11,6 @@ int main(void)
 	int res;
 
 	res = _islower("c");
-	if (islower(res))
-	{
-		_putchar(res + '0');
-		return (1);
-	}
+	_putchar(res + '0');
 	return (0);
 }
