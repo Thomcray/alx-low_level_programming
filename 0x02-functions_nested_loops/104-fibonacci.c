@@ -19,10 +19,10 @@ int main(void)
 		first = second;
 		second = sum;
 
-		if (i == 97)
-			printf("\n");
-		else
+		if (i != 98)
 			printf(", ");
+		else
+			printf("\n");
 	}
 	return (0);
 }
