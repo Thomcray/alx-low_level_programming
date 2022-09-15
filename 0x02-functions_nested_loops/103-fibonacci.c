@@ -13,7 +13,7 @@ int main(void)
 	unsigned long first = 0, second = 1, sum;
 	float total_sum;
 
-	while (true)
+	while (1)
 	{
 		sum = first + second;
 
