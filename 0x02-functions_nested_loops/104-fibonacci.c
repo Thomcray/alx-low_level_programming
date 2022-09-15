@@ -11,21 +11,18 @@ int main(void)
 	int i;
 	unsigned long first = 0, second = 1, sum;
 
-	for (i = 0; i <= 98; i++)
+	for (i = 1; i <= 98; i++)
 	{
 		sum = first + second;
 		printf("%lu", sum);
 
-		if (i != 98)
-		{
-			printf(", ");
-		}
-		else
-		{
-			printf("\n");
-		}
 		first = second;
 		second = sum;
+
+		if (i == 97)
+			printf("\n");
+		else
+			printf(", ");
 	}
 	return (0);
 }
