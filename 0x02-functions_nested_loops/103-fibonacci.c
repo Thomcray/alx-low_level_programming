@@ -9,10 +9,11 @@
 
 int main(void)
 {
-	int i, total_sum;
+	int i;
 	unsigned long first = 0, second = 1, sum;
+	float total_sum;
 
-	for (i = 0; i < 4000000; i++)
+	for (i = 0; i <= 4000000; i++)
 	{
 		sum = first + second;
 
@@ -24,6 +25,6 @@ int main(void)
 		first = second;
 		second = sum;
 	}
-	printf("%d\n", total_sum);
+	printf("%.0f\n", total_sum);
 	return (0);
 }
