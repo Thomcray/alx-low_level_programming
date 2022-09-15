@@ -14,15 +14,14 @@ int main(void)
 	for (i = 1; i <= 98; i++)
 	{
 		sum = first + second;
-		printf("%lu", sum);
+
+		if (i != 98)
+			printf("%lu, ", sum);
+		else
+			printf("%lu\n", sum);
 
 		first = second;
 		second = sum;
-
-		if (i != 98)
-			printf(", ");
-		else
-			printf("\n");
 	}
 	return (0);
 }
