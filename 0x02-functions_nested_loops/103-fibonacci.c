@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int i;
+	int i, total_sum;
 	unsigned long first = 0, second = 1, sum;
 
 	for (i = 0; i < 4000000; i++)
@@ -18,11 +18,12 @@ int main(void)
 
 		if ((sum % 2) == 0)
 		{
-			printf("%lu\n", sum);
+			total_sum += sum;
 		}
 
 		first = second;
 		second = sum;
 	}
+	printf("%d\n", total_sum);
 	return (0);
 }
