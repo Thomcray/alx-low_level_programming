@@ -13,15 +13,14 @@ int main(void)
 	unsigned long first = 0, second = 1, sum;
 	float total_sum;
 
-	for (i = 0; i <= 4000000; i++)
+	while (true)
 	{
 		sum = first + second;
 
+		if (sum > 4000000)
+			break;
 		if ((sum % 2) == 0)
-		{
 			total_sum += sum;
-		}
-
 		first = second;
 		second = sum;
 	}
