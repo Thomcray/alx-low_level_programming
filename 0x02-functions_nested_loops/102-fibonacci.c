@@ -19,7 +19,7 @@ int main(void)
 		first = second;
 		second = sum;
 
-		if (i < 50)
+		if (i < 49)
 			printf(", ");
 		else
 			printf("\n");
