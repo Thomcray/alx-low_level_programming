@@ -9,7 +9,6 @@
 
 int main(void)
 {
-	int i;
 	unsigned long first = 0, second = 1, sum;
 	float total_sum;
 
