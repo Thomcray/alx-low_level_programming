@@ -7,4 +7,5 @@
   5. Function that prints 10 times the numbers from 0-14, followed by a new line
   6. Function that draws a straight line in the terminal
   7. Function that draws a diagonal line on the terminal
-  8. Function that prints a square followed by a new line 
+  8. Function that prints a square followed by a new line
+  9. FizzBuzz 
