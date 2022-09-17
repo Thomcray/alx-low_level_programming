@@ -9,4 +9,5 @@
   7. Function that draws a diagonal line on the terminal
   8. Function that prints a square followed by a new line
   9. FizzBuzz
-  10. Function that prints a triangle followed by a new line 
+  10. Function that prints a triangle followed by a new line
+  11. Program that finds the largest prime factor of a number 612852475143. followed by new line 
