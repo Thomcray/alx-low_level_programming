@@ -3,3 +3,4 @@
   1. A function tat swaps the values of two integers
   2. A function that returns the length of the string
   3. A function that prints a string, followed by a new line, to stdout
+  4. A function that prints a string, in reverse, followed by a new line.
