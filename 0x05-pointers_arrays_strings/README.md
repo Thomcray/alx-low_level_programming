@@ -10,3 +10,4 @@
   8. Write a function that prints n elemnts of an array of integers followed by a new line
     * Numbers must be separated by commas
     * The Numbers should be displayed in the same order asthey stored in the array
+  9. A function that copies the string pointed to the src, including the terminating numm byte(\0), to the buffer pointed to the dest
