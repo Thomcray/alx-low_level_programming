@@ -6,3 +6,4 @@
   4. A function that searches a string for any of a set of bytes
   5. A function that locates a substring
   6. A function that prints the chessboard
+  7. A function that prints the sum of the two diagnals of a square matrix of integers
