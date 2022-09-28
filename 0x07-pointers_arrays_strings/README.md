@@ -5,3 +5,4 @@
   3. A function that gets the length of a prefix substring
   4. A function that searches a string for any of a set of bytes
   5. A function that locates a substring
+  6. A function that prints the chessboard
