@@ -8,3 +8,4 @@
   6. A function that prints the chessboard
   7. A function that prints the sum of the two diagnals of a square matrix of integers
   8. A function that sets the value of the pointer to a char
+  9. Create a file that contains the password for the crackme2 executable
