@@ -8,16 +8,10 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int __attribute__((unused)) argc, char *argv[])
 {
-	int i;
-
-	printf("Let's see what is in argv[]\n");
-
-	for (i = 0; i < argc; i++)
-	{
-		printf("argv[%d] = %s\n", i, argv[i]);
-	}
+	printf("name of program\n");
+	printf("%s\n", argv[0]);
 
 	return (0);
 }
