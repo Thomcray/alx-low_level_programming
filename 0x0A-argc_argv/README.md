@@ -14,3 +14,10 @@
    * if no number is passed to the program, print 0, followed by a new line
    * if one of the number contains symbols that are not digits, print Error, followed by a new line and return 1
    * you can assume that numbers and the addition of all the numbers can be stored in an int
+  5. write a program that prints the minimumnumber of cons to make change for an amount of money
+   * usage: ./change cents
+   * where cents is the amount of cents you need to give back
+   * if the number of arguments passed to your program is not exactly 1, print Error, followed by a new line, and return 1
+   * you should use atoi to parse the parameter passed to your program
+   * if the number passed as the argument is negative, print 0, followed by a new line
+   * you can use an unlimited number of coins of values 25, 10, 5, 2, 1 cent
