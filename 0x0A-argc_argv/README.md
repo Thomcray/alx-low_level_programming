@@ -9,3 +9,8 @@
    * your program should print the result of the multiplication followed by a new line
    * you can assume that the two numbers and result of the multiplication can be stored in an integer
    * if the program does not receive two arguments, your program should print Error, followed by a new line, and return 1
+  4. write a program that adds positve numbers
+   * print the result followed by a new line
+   * if no number is passed to the program, print 0, followed by a new line
+   * if one of the number contains symbols that are not digits, print Error, followed by a new line and return 1
+   * you can assume that numbers and the addition of all the numbers can be stored in an int
