@@ -1,0 +1,12 @@
+#include "main.h"
+
+/**
+ * _memcpy - Entry point
+ * @dest: param1
+ * @src: param2
+ * @n: param3
+ *
+ * Return: char
+ */
+
+char *_memcpy(char *dest, char *src, unsigned int n);
