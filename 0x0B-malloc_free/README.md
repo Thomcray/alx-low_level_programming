@@ -19,3 +19,7 @@
    * the function should return NULL on failure
    * if the width or height is 0 or negative, return NULL
   4. write a program that frees a 2 dimensional grid previously created by alloc_grid function
+  5. write a program that concatenates all the arguments of your programs
+   * returns NULL if ac == 0 or av == NULL
+   * returns a pointer to a new string or NULL if it fails
+   * each arguments should be followed by a \n in the new string
