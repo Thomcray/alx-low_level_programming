@@ -9,3 +9,8 @@
    * returns NULL if str = NULL
    * on success, the _strdup function returns a pointer to the duplicated string. it returns NULL if insufficient memory is 
      available
+  2. write a function that concatenates two strings
+   * the return pointer should point to a newly allocated spac in memory which contains the contents of s1, followed by the
+     contents of s2, and null terminated.
+   * if NULL is passed, treat it as an empty string
+   * the function should return NULL on failure.
