@@ -14,3 +14,7 @@
      contents of s2, and null terminated.
    * if NULL is passed, treat it as an empty string
    * the function should return NULL on failure.
+  3. write a function that returns a pointer to a 2 dimensional array of integers
+   * each element of the grid should be initialized to 0
+   * the function should return NULL on failure
+   * if the width or height is 0 or negative, return NULL
