@@ -18,3 +18,4 @@
    * each element of the grid should be initialized to 0
    * the function should return NULL on failure
    * if the width or height is 0 or negative, return NULL
+  4. write a program that frees a 2 dimensional grid previously created by alloc_grid function
